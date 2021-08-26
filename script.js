@@ -8,6 +8,7 @@ function compute()
 {
     p = document.getElementById("principal").value;
     if(principal <= 0){
+        var principal = document.getElementById("principal").value;
         alert("Enter a positive number")
     }else {
     var principal = document.getElementById("principal").value;
